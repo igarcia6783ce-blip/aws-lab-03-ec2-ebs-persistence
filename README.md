@@ -17,7 +17,7 @@ This project demonstrates how to configure persistent storage on an AWS EC2 inst
 - ## Key Concepts Learned
 - How EBS volumes provide persistent storage
 - How to format and mount storage in Linux
-- How fstab ensures automatic mounting after reboot
+- How /etc/fstab ensures EBS volumes automatically mount after reboot
 - Difference between temporary and persistent storage on EC2
 - 
 ## Real-World Use Case
