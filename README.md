@@ -1,9 +1,11 @@
 # AWS EC2 + EBS Persistent Storage Lab (Lab 03)
 
 > Note: Commands and configuration verified during live AWS lab session using EC2 + EBS.
-
+> 
 ## Overview
-This hands-on AWS lab demonstrates launching an EC2 instance, attaching and mounting an EBS volume, and configuring persistent storage on Linux.
+This project demonstrates how to configure persistent storage on an AWS EC2 instance using an EBS volume, including formatting, mounting, and ensuring data persists across reboots using fstab.
+
+
 
 ## Objectives
 - Launch EC2 instance in AWS
@@ -12,8 +14,18 @@ This hands-on AWS lab demonstrates launching an EC2 instance, attaching and moun
 - Configure persistent mounting using fstab
 - Verify persistent storage after reboot
 
+- ## Key Concepts Learned
+- How EBS volumes provide persistent storage
+- How to format and mount storage in Linux
+- How fstab ensures automatic mounting after reboot
+- Difference between temporary and persistent storage on EC2
+- 
+## Real-World Use Case
+This setup can be used for storing application data, logs, or databases that must persist even if the EC2 instance is restarted.
+- 
+
 ## Architecture
-EC2 (Linux) with attached EBS volume mounted to /data and persisted via fstab.
+EC2 (Linux) with attached EBS volume mounted to /data and persisted via fstab
 
 ## Steps Performed
 
